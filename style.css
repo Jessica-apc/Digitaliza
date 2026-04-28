@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --primary: #1e3a8a;
   --secondary: #10b981;
@@ -101,4 +102,109 @@ input {
 .coming-soon {
   text-align: center;
   padding: 100px 20px;
+=======
+:root {
+  --primary: #1e3a8a;
+  --secondary: #10b981;
+  --bg: #f8fafc;
+  --text: #1e293b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 450px;
+  max-width: 100%;
+  margin-bottom: 25px;
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.35));
+}
+
+header p {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  background: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: bold;
+}
+
+section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+  max-width: 500px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+}
+
+#successMessage {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.coming-soon {
+  text-align: center;
+  padding: 100px 20px;
+>>>>>>> 1cda2b5 (primeira conexão do projeto)
 }
